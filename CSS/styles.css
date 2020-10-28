@@ -176,6 +176,8 @@ code {
 /* ====== END-HEADER ====== */ 
 
 /* ====== FILTER-MENU ====== */ 
+
+
 .filter-section{
     background-color: var(--main-color-dark);
     /* border-bottom: 3px solid var(--accent-color); */
