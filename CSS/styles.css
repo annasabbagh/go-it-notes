@@ -26,6 +26,9 @@ body {
 a {
   text-decoration: none;
 }
+.remove-list-decoration {
+  list-style-type: none;
+}
 
 code {
   background-color: rgb(192, 192, 192, 0.3);
@@ -333,9 +336,10 @@ code {
   justify-content: space-between;
 }
 .first-column {
-  margin-right: 10px;
+  margin-right: 20px;
+  flex-basis: 50%;
 }
 
 .second-column {
-  margin-left: 10px;
+  flex-basis: 50%;
 }
